@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we make a let variable with the keyword of name and set it to the value of Dane which is a string value.
+// then we check if the name value is equal to Mary and if it is we console.log 'Hi, Mary!' 
+// if its any other value we console.log 'How do you do'.
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we set two variables with keywords secret and code. 
+// the value for code ia 123 which is a number
+// the value of secret will change based on if the code equals 123 it will double the value of the code and tell you that secret is console.log 'super'
+//if the code is greater than 250 then the value of secret is 'duper' then the computer will console.log 'duper'
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we created thre variables with isStudent, age, zip. the isStudent is a boolean value set as true, the age and zip value is set as numbers
+// we check if student is true and the zip is greater than 80000. if these conditions are met then we console.log 'You're a student on the West Coast!'
+// if the first set of conditions are not met then we check if isStudent is false or if you age is less than 30 then we console.log 'What are your hobbies'
+// if those conditions are not met then we check if the isStudent is equal to true as the only condition. if this is a match then we console.log 'Welcome to Prime!'
+// if none of the previous 3 'if' and 'else if' conditions are not met then we will console.log 'How about the weather'.
 
 //CODE
 /*
@@ -130,10 +131,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
+// FIX - as per the instructions corlorOne should equal 'blue and colorTwo should have a value of 'red'.
+let colorOne = 'red'; 
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - need to also add the outcome when ture that colorTwo also changes its value to equal 'purple'. which is also inside the curly bracktes.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,9 +147,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX - should change the type of variable to 'let time = 4' instead of it being a const value that cant change.
 let temp = 40;
 const time = 4;
 
+// FIX - need to change the operator '||' to '&&' so instead it checks the temp is greater than 39 AND the time is greater than or euqal to 4.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +165,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - should swap the placement of the minAge and age conditions so it reads 'age >= minAge' as per the instructions. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
